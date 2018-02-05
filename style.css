@@ -4,14 +4,35 @@ body {
 
 .carousel-container {
   background-color: ghostwhite;
-  padding: 30px;
+  padding: 30px 30px 15px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
   font-family: Nunito, sans-serif;
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+.slides-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide-wrapper {
+  font-size: 10px;
+  color: slategray;
+  padding: 15px 5px 0;
+  display: flex;
+}
+
+.guide {
+  margin: 0 8px 0;
+}
+
+.guide.active {
+  color: darkslategray;
 }
 
 .carousel-icon {
